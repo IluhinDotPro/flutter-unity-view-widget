@@ -285,7 +285,7 @@ class FlutterUnityWidgetController(
     private fun createPlayer() {
         try {
             if (UnityPlayerUtils.activity != null) {
-                UnityPlayerUtils.createUnityPlayer( this, object : OnCreateUnityViewCallback {
+                /*UnityPlayerUtils.createUnityPlayer( this, object : OnCreateUnityViewCallback {
                     override fun onReady() {
                         // attach unity to controller
                         attachToView()
@@ -295,7 +295,7 @@ class FlutterUnityWidgetController(
                             methodChannelResult = null
                         }
                     }
-                })
+                })*/
             }
         } catch (e: Exception) {
             if (methodChannelResult != null) {
