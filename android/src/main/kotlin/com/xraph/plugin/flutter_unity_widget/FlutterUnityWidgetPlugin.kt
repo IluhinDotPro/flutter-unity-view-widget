@@ -92,6 +92,7 @@ class FlutterUnityWidgetPlugin : FlutterPlugin, ActivityAware {
      *
      * <p>This is used in the case where a direct Lifecycle/Owner is not available.
      */
+     /*
     @SuppressLint("NewApi")
     private class ProxyLifecycleProvider(activity: Activity) : Application.ActivityLifecycleCallbacks, LifecycleOwner, LifecycleProvider {
         private val lifecycle = LifecycleRegistry(this)
@@ -160,5 +161,5 @@ class FlutterUnityWidgetPlugin : FlutterPlugin, ActivityAware {
         override fun getLifecycle(): Lifecycle {
             return lifecycle
         }
-    }
+    }*/
 }
